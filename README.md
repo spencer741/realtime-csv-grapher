@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## graph.js
   If multiple data points are used on the same timeline, pond.js [pipelines](https://esnet-pondjs.appspot.com/#/pipeline) can be used to aggregate multiple data points.
   Alter the parseNextDataPoint function to specify your own parsing function. 
-  
-### This will be generalized for prop usage in the future as I update this repo.
+ 
+Most graphing attributes are usually highly dependent on individual data from the file itself; therefore,<br/>
+This project is in very early stages, with a lot of abstraction to be done. It will be generalized for prop usage in the future as I update this repo, with timely updates to allow for custom X-axis timestamp formatting, custom rate (to align with timestamps parsed directly from csv), etc.
 
