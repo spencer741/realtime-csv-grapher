@@ -13,7 +13,7 @@ import { Charts, ChartContainer, ChartRow, YAxis, styler, Legend, Resizable, Lin
 const sec = 1000;
 const minute = 60 * sec;
 const hours = 60 * minute;
-const rate = 1000;
+const rate = 100; //datapoint every tenth of a second. This should be set through props.
 
 export default class Graph extends React.Component {
 
