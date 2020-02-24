@@ -1,11 +1,5 @@
 
-/*
-  Most warnings are due to slightly out-dated dependencies (UNSAFE warnings) https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
-  Other warnings are setInterval Violations (which isn't more than a chrome suggestion). https://stackoverflow.com/questions/42218699/javascript-chrome-violation-violation-handler-took-83ms-of-runtime/44824402#44824402\n 
-  There is currently another error after component Graph unmounting where code is still executing.
-  Other things can be cleaned up with resetting the fileuploader (This would require a pull request to be opened with react-csv-reader )
-  -Spencer
-  */
+
 
 import React, {useState} from "react";
 import CSVReader from "react-csv-reader";
@@ -43,7 +37,7 @@ function App(){
   const handleDone = () => {
       setrenderchild(false);
   }
-  
+
   if(renderchild === false)
   {
     setcsvloaded(false);
