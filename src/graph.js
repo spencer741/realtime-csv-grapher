@@ -42,9 +42,7 @@ export default class Graph extends React.Component {
        
     }
 
-    getNewEvent = t => {
-
-        
+    getNewEvent = t => { 
         var te = new TimeEvent(t, parseInt(this.state.nextDataPoint));
         this.parseNextDataPoint();
         return te;

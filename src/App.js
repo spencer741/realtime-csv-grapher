@@ -55,7 +55,11 @@ function App(){
       />
       <p>and then open the console</p>
         {csvloaded && renderchild ? 
+        <>
           <Graph data={csvdata} done={handleDone}/>
+          <Graph data={csvdata} done={handleDone}/>
+          <Graph data={csvdata} done={handleDone}/>
+          </>
         : null }
     </div>
   );
