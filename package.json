@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-csv-reader": "^2.0.2",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.4.4",
     "react-timeseries-charts": "^0.16.1",
     "ringjs": "0.0.1"
   },
